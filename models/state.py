@@ -23,6 +23,7 @@ class State(BaseModel, Base):
     else:
         @property
         def cities(self):
+            """ Return all City objects from FileStorage """
             list_of_cities = []
             for city in models.storage.all(City).values():
                 if self.id == city.state_id:
