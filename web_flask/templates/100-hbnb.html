@@ -61,7 +61,7 @@
             <div class="number_bathrooms">{{ x.number_bathrooms }} Bathroom</div>
 	  </div>
 	  <div class="user">
-            <b>Owner:</b> {{ x.user_id.first_name }}
+            <b>Owner:</b> {{ x.users.first_name }} {{ x.users.last_name }}
           </div>
           <div class="description">
             {{ x.description }}
