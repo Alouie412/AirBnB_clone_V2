@@ -28,7 +28,7 @@ class FileStorage:
         exclusive_dict = {}
         if cls is not None:
             for key, value in self.__objects.items():
-                #print("\nKey: {}\n\nValue: {}\n".format(key, value))
+                # print("\nKey: {}\n\nValue: {}\n".format(key, value))
                 if cls == value.__class__:
                     exclusive_dict[key] = value
 
