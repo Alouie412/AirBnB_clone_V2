@@ -53,11 +53,12 @@ button:hover {
 .popover {
     visibility: hidden;
     width: 100%;
+    top: 10%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     background: #FAFAFA;
     padding-bottom: 25px;
-    overflow: scroll;
+    overview: scroll;
     height: 300px;
 }
 .amenities .popover {
