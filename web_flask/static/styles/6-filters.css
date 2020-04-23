@@ -53,13 +53,13 @@ button:hover {
 .popover {
     visibility: hidden;
     width: 100%;
-    top: 10%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     background: #FAFAFA;
     padding-bottom: 25px;
     overview: scroll;
     height: 300px;
+    margin-top: 15px;
 }
 .amenities .popover {
     padding: 20px 0;
